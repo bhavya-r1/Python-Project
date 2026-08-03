@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 Navigating the job market as a Data Analyst can feel overwhelming. Which skills should you invest your time in learning? Do the most popular tools actually pay the highest salaries, or are niche skills yielding better returns?
 
@@ -19,7 +19,7 @@ This project analyzes real-world job posting data for **Data Analyst positions i
 
 ---
 
-## 💡 Key Findings & Highlights
+##  Key Findings & Highlights
 
 1. **Demand vs. Salary Split**: High-demand baseline tools (like SQL and Excel) are essential prerequisites for getting hired, but specialized stack tools (e.g., advanced cloud technologies, specialized database/analytics frameworks) often command higher median compensation.
 2. **Core Essentials**: SQL and Python remain the top foundational tech stack required across the vast majority of Indian Data Analyst postings.
@@ -45,7 +45,7 @@ This project analyzes real-world job posting data for **Data Analyst positions i
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## Tech Stack & Libraries
 
 - **Language:** Python 3.x
 - **Data Manipulation:** `pandas`, `ast`
@@ -54,7 +54,7 @@ This project analyzes real-world job posting data for **Data Analyst positions i
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 Ensure you have Python 3.8 or above installed on your machine.
@@ -78,7 +78,7 @@ Open `data_analysis.ipynb` (or your respective notebook file) and run all cells 
 
 ---
 
-## 🔬 Methodology & Workflow
+##  Methodology & Workflow
 
 The analysis pipeline follows these steps:
 
@@ -97,7 +97,7 @@ The analysis pipeline follows these steps:
 
 ---
 
-## 📈 Visualizing the Insights
+##  Visualizing the Insights
 
 Here is the Python visualization snippet used to create the side-by-side comparison charts:
 
@@ -140,7 +140,7 @@ plt.show()
 
 ---
 
-## 📌 Future Roadmap
+##  Future Roadmap
 
 - [ ] Add time-series analysis to track skill demand trends month-over-month.
 - [ ] Expand analysis to include Data Engineer and Data Scientist roles for cross-role comparison.
