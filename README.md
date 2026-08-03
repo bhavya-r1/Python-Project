@@ -29,19 +29,21 @@ This project analyzes real-world job posting data for **Data Analyst positions i
 
 ## Project Visualisation
 ### Top 5 Highest Paying Skills
-![alt text](image.png)
+
+<img width="984" height="982" alt="image" src="https://github.com/user-attachments/assets/def51b96-f05d-460c-905e-b03eda0dc673" />
 
 ### TOP 10 high paid skills and Most In-Demand Skills for Data Analyst
 
-![alt text](image-1.png)
+<img width="989" height="790" alt="image" src="https://github.com/user-attachments/assets/6c36f18c-259c-4744-87a0-1987f1bc1441" />
 
 ### Skill Trend of Data Analyst in India
 
-![alt text](image-2.png)
+<img width="597" height="457" alt="image" src="https://github.com/user-attachments/assets/ad962904-ed0e-4b00-bcea-d971db2b8596" />
+
 
 ### Salary Distributions of Data Jobs in the India
 
-![alt text](image-3.png)
+<img width="737" height="457" alt="image" src="https://github.com/user-attachments/assets/b1618826-b58a-470e-86ff-d532923f2f6d" />
 
 ---
 
@@ -74,7 +76,7 @@ Launch Jupyter Notebook or JupyterLab to run the analysis:
 ```bash
 jupyter notebook
 ```
-Open `data_analysis.ipynb` (or your respective notebook file) and run all cells sequentially.
+Open `data_analysis.ipynb` and run all cells sequentially.
 
 ---
 
@@ -82,7 +84,7 @@ Open `data_analysis.ipynb` (or your respective notebook file) and run all cells 
 
 The analysis pipeline follows these steps:
 
-1. **Data Ingestion**: Fetch raw data directly from Hugging Face's `lukebarousse/data_jobs` split.
+1. **Data Ingestion**: Fetch raw data directly from Hugging Face's split.
 2. **Data Cleaning & Filtering**:
    - Parse stringified list objects in `job_skills` safely using `ast.literal_eval`.
    - Filter down specifically to `job_title_short == 'Data Analyst'` and `job_country == 'India'`.
@@ -140,13 +142,9 @@ plt.show()
 
 ---
 
-##  Future Roadmap
-
-- [ ] Add time-series analysis to track skill demand trends month-over-month.
-- [ ] Expand analysis to include Data Engineer and Data Scientist roles for cross-role comparison.
-- [ ] Implement remote vs. on-site salary differential analysis.
+This project demonstrates data cleaning, exploratory data analysis, aggregation, and visualization using Python, providing insights into the Indian Data Analyst job market and the relationship between skill demand and salary.
 
 ---
 
-This project demonstrates data cleaning, exploratory data analysis, aggregation, and visualization using Python, providing insights into the Indian Data Analyst job market and the relationship between skill demand and salary.
+
 
